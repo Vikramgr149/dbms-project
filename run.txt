@@ -1,0 +1,20 @@
+Install dependencies
+    pip install flask mysql-connector-python matplotlib numpy
+
+Set up the database
+Start your MySQL server.
+Use the SQL scripts in the sql database folder (such as tables.sql) to create and populate the database DBMS_PROJECT
+
+Run the Flask app
+    Navigate to the templates directory in your terminal:
+    cd templates
+
+    Start the Flask application:
+    python main.py
+
+
+Access the web interface
+    Open your browser and go to http://localhost:5000.
+
+    username: admin
+    password: admin
